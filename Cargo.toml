@@ -1,0 +1,8 @@
+[package]
+name = "powercfg"
+version = "0.1.0"
+edition = "2024"
+description = "The Powercfg Command Summarises Saved Windows Power Requests by Category and Compares Reports to Reveal Added or Cleared Requests"
+
+[dependencies]
+clap = { version = "=4.6.6", features = ["derive"] }
